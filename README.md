@@ -17,6 +17,11 @@ In lieu of a formal styleguide, take care to maintain the existing coding style.
 ## Release History
 _(Nothing yet)_
 
+## Contributors
+
+- Caike Souza
+- Jacob Swanner
+
 ## License
 Copyright (c) 2012 Caike Souza
 Licensed under the MIT license.
