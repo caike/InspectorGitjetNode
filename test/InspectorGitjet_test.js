@@ -20,7 +20,7 @@ var InspectorGitjet = require('../lib/InspectorGitjet.js');
     test.ifError(value)
 */
 
-exports['awesome'] = {
+exports['run'] = {
   setUp: function(done) {
     // setup here
     done();
@@ -28,7 +28,7 @@ exports['awesome'] = {
   'no args': function(test) {
     test.expect(1);
     // tests here
-    test.equal(InspectorGitjet.awesome(), 'awesome', 'should be awesome.');
+    test.equal(InspectorGitjet.run(), 'done.', 'should be done.');
     test.done();
   }
 };
